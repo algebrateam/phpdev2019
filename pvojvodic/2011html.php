@@ -11,6 +11,28 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>ALGEBRA</div>
+        <div>
+            <a href = "www.index.hr"> N
+            
+            daksčdlkla
+            </a>
+        </div> 
+        <ul>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <li>Prvi</li>
+    <li>Drugi</li>
+        <ol>Osijek</ol>
+    <li>Treći</li>
+        <ul>
+       <ol>Mladost</ol>
+        </ul>    
+     </ul>
+    
+    
+    
     </body>
 </html>
