@@ -18,6 +18,7 @@ $ime="Mateo";
 $prezime="Martinović";
 
 echo "<br>Zadaću napisao ".$ime." ".$prezime;
+echo "<br>Zadaću napisao $ime $prezime";
 
 echo "<hr>";
 
