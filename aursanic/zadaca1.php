@@ -77,9 +77,12 @@ echo"$a % $b = " . ($a % $b);
 /*
  * 7. zadatak
  */
-
+echo "<br>";
 $a = 4;
+echo "$a";
+echo "<br>";
 $b = 2;
+echo "$b";
 
 
 

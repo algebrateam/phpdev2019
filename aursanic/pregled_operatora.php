@@ -1,14 +1,9 @@
 <?php
 
-
-
-/* 
- *operatori
- * *aritmetički + - + / modulo %
+/**
+ * Operatori 
+ * aritmetički + - * / modulo(%)
  */
-
-
-
 echo "<hr>aritmetički + <br>";
 echo 2+3;
 echo "<hr>aritmetički - <br>";
@@ -19,21 +14,21 @@ echo "<hr>aritmetički / <br>";
 echo 2/3;
 echo "<hr>aritmetički % <br>";
 echo 16%3;
+echo '<br>';
 
 /**
- * *operatori
- * *nastavljanje nizova
+ * Operatori 
+ * nastavljanje nizova  .
  */
-
-
-
-$ime="Nikola";
-$prezime="Tesla";
+"<br><hr>operator .<br>";
+$ime='Nikola';
+$prezime='Tesla';
 
 echo $ime.', '.$ime.' '.$prezime;
-If(isset($ime)){
-    echo "ime je postavljeno";
+if(isset($ime)){
+  echo "ime je postavljeno<br>";
 }
+
 //
 $ime=null;
 if(!isset($ime)){
@@ -50,28 +45,3 @@ if($ime==''){
 if(is_null($ime)){
   echo "ime je NULL<br>";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
