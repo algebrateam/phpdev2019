@@ -1,0 +1,16 @@
+<?php
+
+/*
+ * Operatori
+ * aritmetički + - * / modulo(%)
+ */
+echo "<hr>aritmetički + <br>";
+echo 2+3;
+echo "<hr>aritmetički - <br>";
+echo 2-3;
+echo "<hr>aritmetički * <br>";
+echo 2*3;
+echo "<hr>aritmetički / <br>";
+echo 2/3;
+echo "<hr>aritmetički % <br>";
+echo 2%3;
