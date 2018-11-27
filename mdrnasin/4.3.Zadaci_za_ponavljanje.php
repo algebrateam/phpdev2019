@@ -18,14 +18,14 @@ echo ', ';
 echo --$a;
 
 echo "<hr>";
-
 $a = (float) $a;
-echo "4. Zadatak - ";
-echo $a;
+echo "<br>4. Zadatak - ";
+echo $a."<br>";
+printf('%.2f', $a);
 
 echo "<hr>";
 
-$a = $a * 5;
+$a = $a + 5;  // ili $a += 5;
 echo "5. Zadatak - ";
 echo $a;
 
