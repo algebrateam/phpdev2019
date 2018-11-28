@@ -18,7 +18,7 @@ $naziv = "Algebra";
 if (true) {
     echo 'naziv ima više od 10 znakova';
 }
-
+//strlen je funkcija koja broji znakove
 $naziv = "Algebra";
 if (strlen($naziv) >= 10) {
     echo 'naziv ima više od 10 znakova';
