@@ -6,8 +6,12 @@ $b = 2;
 
 if ($a < $b) {
     echo "Varijabla a je manja od varijable b ";
-} else {
+} 
+elseif($a > $b) {
     echo "Varijabla a je veća od varijable b";
+}
+else{
+  echo "Varijabla a je jednaka varijabli b";
 }
 
 echo "<hr>";
@@ -19,7 +23,7 @@ $d = 7;
 
 echo "Varijable prije su a: $c i b: $d, ";
 
-if ($c > $d) {
+if ($c >= $d) {
     $c++;
 } else {
     $d--;
@@ -38,8 +42,10 @@ while ($i <= 50) {
 
 echo "<hr>";
 
-echo "Zadatak 4. - Zbroj brojeva od 20 do 30 pomoću petlje for iznosi - ";
-
+echo "Zadatak 4. - Zbroj brojeva od 20 do 30 pomoću petlje for iznosi: ";
+/**
+ * 20+21+22+23+ ... + 29 +30 =
+ */
 $j = 0;
 
 for ($ii = 20; $ii <= 30; $ii++) {
