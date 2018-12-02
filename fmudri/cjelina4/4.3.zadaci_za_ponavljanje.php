@@ -9,72 +9,74 @@
 $ime = "Filip";
 $prezime = "Mudri";
 
-//crveni uskličnik se makne kada obrišem drugi navodnik kod .$prezime?
-echo '.$ime. .$prezime.';
+echo $ime." ".$prezime;
 echo '<br>';
-
+echo '<br>';
 
 //Drugi zadatak
 $a = 5;
 
-echo ++$a;
-echo '<br>';
-
-echo --$a;
-echo '<br>';
-
-//Treći zadatak
-//ovo sam pronašao na internetu
-$a = number_format((float)$a, 5, '.', '');
-
+echo $a++;
 echo $a;
 echo '<br>';
 
-
-//Četvrti zadatak
-$b = $a + 5;
-
-echo $b;
+echo $a--;
+echo $a;
+echo '<br>';
 echo '<br>';
 
+//Treći zadatak
+$a = 5;
+$a = (float)$a;
+
+echo $a;
+echo '<br>';
+echo '<br>';
+
+//Četvrti zadatak
+$a = 5;
+$a = $a + 5;
+
+echo $a;
+echo '<br>';
+echo '<br>';
 
 //Peti zadatak
 $c = 7;
 $d = 3;
 
-echo $c + $d;
+echo $c." + ".$d. " = " .($c+$d)."</br>";
 echo '<br>';
 
-echo $c - $d;
+echo $c. " - " .$d. " = " .($c-$d)."</br>";
 echo '<br>';
 
-echo $c * $d;
+echo $c. " * " .$d. " = " .($c*$d)."</br>";
 echo '<br>';
 
-echo $c / $d;
+echo $c. " / " .$d. " = " .($c/$d). "</br>";
 echo '<br>';
 
-echo $c % $d;
+echo $c. " % " .$d. " = " .($c%$d)."</br>";
 echo '<br>';
-
+echo '<br>';
 
 //Šesti zadatak
-$e = 4;
-$f = 2;
+$c = 4;
+$d = 2;
 
-echo $e + $f;
+echo $c." + ".$d. " = " .($c+$d)."</br>";
 echo '<br>';
 
-echo $e - $f;
+echo $c. " - " .$d. " = " .($c-$d)."</br>";
 echo '<br>';
 
-echo $e * $f;
+echo $c. " * " .$d. " = " .($c*$d)."</br>";
 echo '<br>';
 
-echo $e / $f;
+echo $c. " / " .$d. " = " .($c/$d). "</br>";
 echo '<br>';
 
-echo $e % $f;
-echo '<br>';
+echo $c. " % " .$d. " = " .($c%$d)."</br>";
 
 

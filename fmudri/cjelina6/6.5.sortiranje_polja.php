@@ -70,7 +70,7 @@ print_r($fruits);
 echo '</pre>';
 ///////////////////////
 
-//razvrstava ključeve od najvećeg prema najmanjem
+//razvrstava ključeve po abecedi
 $fruits =[
     0 => 'limun',
     'a' => 'naranca',

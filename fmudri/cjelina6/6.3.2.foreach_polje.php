@@ -13,7 +13,8 @@ echo $fiati['favorit']; //ispisuje 'multiplu'
 echo '<ul>';
 
 foreach ($fiati as $key => $value) { //sve ispisuje
-    echo "<li id='id" .$key "' name='name" . $key . "'>" . $value . "</li>";
+        echo "<li id='id" .$key " ' name='name" . $key . "'>" . $value . "</li>";
+
 }
 echo '</ul>';
 
