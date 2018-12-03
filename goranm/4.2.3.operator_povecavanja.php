@@ -1,13 +1,12 @@
 <?php
 
-$var=5; //ispisuje 5
+$var=5;
 
-$var++;
+echo $var++;  // ispisuje 5
 echo '<br>';
-echo$var;
+echo $var;   // 6
 echo '<br>';
-echo$var;  //6
+echo ++$var;  // 7
 echo '<br>';
-echo ++$var;  //7
-echo '<br>';
-echo $var; //7
+echo $var;    // 7
+

@@ -24,7 +24,7 @@ Echo "<br>varijabla a=".$a;
 Echo "<br>varijabla b=".$b;
 
 
-$imeprez='Ivan Masni';
+$imeprez='George Washington';
 echo $imeprez;
 
 $polje=['abc',45,67.99,true, null, false];
