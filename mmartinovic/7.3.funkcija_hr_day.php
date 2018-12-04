@@ -32,3 +32,11 @@ function hr_day(): string {
 }
 
 echo hr_day();
+
+
+function sumiraj(float $a,$b){
+    return $a+$b;
+}
+
+echo sumiraj(4, 7);
+echo sumiraj(4.1, 7);
