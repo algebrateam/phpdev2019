@@ -1,0 +1,27 @@
+<?php
+
+$a=3;
+$b=5;
+
+$pom=$b;
+$b=$a
+$a=$pom;
+        echo "<br>varijabla a=".$a;
+        echo "<br>varijabla b=".$b;
+        
+ $pom=$b;
+ $b=$a;
+ $a=$pom;
+ 
+ echo "<br>varijabla a=".$a;
+ echo "<br>barijabla b=".$b;
+ 
+ $imeprez="Goran Mitrovic";
+ echo $imeprez;
+ print_r($imeprez);
+ echo "<br>";
+ var_dump($polje);
+ 
+ 
+ 
+ 
