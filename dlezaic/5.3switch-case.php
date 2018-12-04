@@ -2,7 +2,7 @@
 
 $naziv='AlGebRa';
 
-switch (strtolower($naziv) {
+switch (strtolower($naziv)) {
     case 'Algebra':
 
     
