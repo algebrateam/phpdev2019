@@ -3,16 +3,16 @@
  * Operatori
  * aritmetički + - * / modulo(%)
  */
-echo "<hr>aritmetički + <br>";
+echo "<hr>aritmetiÄ�ki + <br>";
 echo 2+3;
-echo "<hr>aritmetički - <br>";
+echo "<hr>aritmetiÄ�ki - <br>";
 echo 2-3;
-echo "<hr>aritmetički * <br>";
+echo "<hr>aritmetiÄ�ki * <br>";
 echo 2*3;
-echo "<hr>aritmetički / <br>";
+echo "<hr>aritmetiÄ�ki / <br>";
 echo 2/3;
 //ostatak kod dijeljenja
-echo "<hr>aritmetički % <br>";
+echo "<hr>aritmetiÄ�ki % <br>";
 echo 16%3;
 echo '<br>';
 /**
