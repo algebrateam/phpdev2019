@@ -16,11 +16,11 @@ echo '<hr>';
 //2. Zadatak
 echo '2. Zadatak - Promjena ključeva: <br>';
 $imena=[
-    'ime 5' => 'Marko',
-    'ime 4' => 'Anamarija',
-    'ime 3' => 'Darko',
-    'ime 3' => 'Ana',
-    'ime 2' => 'Marija'
+    'ime5' => 'Marko',
+    'ime4' => 'Anamarija',
+    'ime3' => 'Darko',
+    'ime3' => 'Ana',
+    'ime2' => 'Marija'
 ];
 echo '<pre>';
 print_r($imena);
@@ -41,14 +41,14 @@ echo '<hr>';
 
 // 4. Zadatak
 echo '4. Zadatak - Sortiranje ključeva po uzlaznom redu naredbom KSORT: <br>';
-$imena= array('Marko', 'Anamarija', 'Darko', 'Ana', 'Marija');
+$imena= array('p'=>'Marko', 't'=>'Anamarija', 'k'=>'Darko', 'r'=>'Ana', 'a'=>'Marija');
 
 ksort($imena);
 
-//foreach ($imena as $key => $value){}; petlja FOREACH nije potrebna??
-echo '<pre>';
-print_r($imena);
-echo '</pre>';
+foreach ($imena as $key => $value) {
+    echo $key.'=>'.$value .'<br>';
+}
+
 
 echo '<hr>';
 
