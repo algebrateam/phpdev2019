@@ -4,16 +4,11 @@
  * Čitanje iz datoteke fopen() 
  */
 
-$filename='kontakt.txt';
+$filename='kontakt2.txt';
 
-$handle= fopen($filename, 'r');
+$handle= fopen($filename, 'w+');
 
-var_dump($handle);
-echo '<br>';
-$contents= fread($handle, 11);
-var_dump($contents);
-echo '<br>';
-$contents= fread($handle, 11);
-var_dump($contents);
-echo '<br>';
-echo 'trenutno se nalazim na '. ftell($handle).' znaku u datoteci';
+fwrite($handle, "Marko Drnasin \n");
+fwrite($handle, "Marko Drnasin \n");
+fwrite($handle, "Marko Drnasin \n");
+fclose($handle);
