@@ -3,10 +3,12 @@
 /**
  * Ne prima parametar vraća hrvatski naziv današnje dana u tjednu
  * npr: Ponedjeljak, Utorak...
+ * 
  * @return string Dan u tjednu
  */
-function hr_day(): string {
-  switch (date('w')) {
+function hr_day(string $dan=null): string { 
+    // Stuff
+  switch ($dan) {
     case 0: return 'Nedjelja';
 
     case 1: return 'Ponedjeljak';
@@ -25,6 +27,8 @@ function hr_day(): string {
 }
 
 echo hr_day();
+echo "<br>danasnji dan:<br>";
+echo hr_day(date('w'));
 
 function sumiraj(float $a,int $b):int{
   echo $b;
