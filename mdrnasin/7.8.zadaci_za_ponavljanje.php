@@ -45,7 +45,7 @@ $ucenici = array('Ivan Ivić', 'Petar Perić', 'Damir Senković');
 ispis_imena($ucenici);
 echo '<hr>';
 
-echo'Zadatak 3. - Funkcije za zbrajanje, razliku, umnožak i dijeljenje varijabli 2 i 9: ';
+echo"Zadatak 3. - Funkcije za zbrajanje, razliku, umnožak i dijeljenje varijabli 2 i 9 :";
 echo '<br>';
 
 function zbroj($a, $b) {
