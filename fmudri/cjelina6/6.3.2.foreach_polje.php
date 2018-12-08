@@ -13,8 +13,7 @@ echo $fiati['favorit']; //ispisuje 'multiplu'
 echo '<ul>';
 
 foreach ($fiati as $key => $value) { //sve ispisuje
-        echo "<li id='id" .$key. " ' name='name" . $key . "'>" . $value . "</li>";
-
+    echo "<li id='id" . $key . " ' name='name" . $key . "'>" . $value . "</li>";
 }
 echo '</ul>';
 
@@ -37,8 +36,8 @@ print_r($ucenici);
 foreach ($ucenici as $key => $uc) {
     foreach ($uc as $key => $value) {
         //prvi način za dobiti samo prezimena
-        if($key=='prezime'){
-        echo '<br>'.$value;
+        if ($key == 'prezime') {
+            echo '<br>' . $value;
         }
     }
 }
@@ -47,9 +46,9 @@ foreach ($ucenici as $key => $uc) {
 foreach ($ucenici as $key => $uc) {
     foreach ($uc as $key => $value) {
         //drugi način za dobiti samo prezimena
-        if($key=='ime'){
+        if ($key == 'ime') {
             continue;
         }
-        echo '<br>'.$value;
+        echo '<br>' . $value;
     }
 }
