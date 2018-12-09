@@ -31,3 +31,32 @@ function sumiraj(int $a,$b):int{
 }
 echo sumiraj(4, 7);
 echo sumiraj('a', 7);
+
+function rh_day(string $dan=NULL): string {
+    switch ($dan) {
+        case 0:return 'nedjelja';
+            break;
+        case 1:return 'ponedjeljak';
+            break;
+        case 2:return 'utorak';
+            break;
+        case 3:return 'sri';
+            break;
+        case 4:return 'cet';
+            break;
+        case 5:return 'pet';
+            break;
+
+
+
+
+          
+
+        default:return 'subota';
+            break;
+}
+
+    }
+    echo rh_day();
+    echo "<br>današnji dan:<br>";
+    echo rh_day(date('w'));
