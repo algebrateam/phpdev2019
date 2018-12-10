@@ -26,7 +26,7 @@ if(isset($_POST["Pošalji"])){
     fclose($handle);
 }
 
-echo 'Zadatak 2. - Program preko kojeg korisnik dohvaća sadržaj, uređuje ga i ponovno sprema: <br>';
+echo 'Zadatak 3. - Program preko kojeg korisnik dohvaća sadržaj, uređuje ga i ponovno sprema: <br>';
 
 $filename="text.txt";
 
@@ -35,15 +35,16 @@ echo '
 Text: <textarea name="text">';
 
  $file= file($filename);
-foreach ($file as $linija) {
+foreach ($file as $line_num => $linija) {
     echo $linija."\n";
-} 
+}
 
-echo '
-<textarea type="submit" name="pošalji" value="Pošalji"/>
-<form/>';
+echo'
+</textarea><br>
+<input type="submit" name="spremi" value="Spremi"/>
+</form>';
 
-if(isset($_POST["pošalji"])){
+if(isset($_POST["spremi"])){
     $handle= fopen($filename, "a+");
     fwrite($handle, $_POST["text"]);
     fclose($handle);
