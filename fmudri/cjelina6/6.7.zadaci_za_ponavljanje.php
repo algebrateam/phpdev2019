@@ -61,16 +61,17 @@ echo "</br>";
 
 $predmeti = array(
     'a' => 'salica', 
-    'b' => 'tanjur', 
+    'e' => 'tanjur', 
     'c' => 'nož', 
     'd' => 'zlica', 
-    'e' => 'vilica'
+    'b' => 'vilica'
     );
 
 
     ksort($predmeti);
 foreach ($predmeti as $key => $value) {
-    var_dump($predmeti);
+    //var_dump($predmeti);
+  printf("%s je ključ koji pokazuje na %s",$key,$value);
     echo "</br>";
 }
 echo "<hr>";
@@ -89,6 +90,6 @@ $brojevi = array();
 for($i=1; $i<=100; $i++){
     $brojevi[] = $i;
 }
-foreach ($brojevi as $broj) {
-    echo $broj. "</br>";
+foreach ($brojevi as $k=>$broj) {
+    echo $k."=>".$broj. "</br>";
 }

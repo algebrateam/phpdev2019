@@ -1,5 +1,11 @@
 <?php
 
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
 //keyevi su [0], [1], ]2]...
 //value su Bravo, Tipo, Chroma...
 $fiati = array('Bravo', 'Tipo', 'Chroma', 'favorit' => 'Multipla', 'Punto');
@@ -13,9 +19,7 @@ echo $fiati['favorit']; //ispisuje 'multiplu'
 echo '<ul>';
 
 foreach ($fiati as $key => $value) { //sve ispisuje
-
-       printf("<li id='id%s' name='name%s'>%s</li>", $key,$key,$value);
-
+    echo "<li id='id" . $key . "name='name" . $key . "'>" . $value . "</li>";
 }
 echo '</ul>';
 
@@ -38,8 +42,8 @@ print_r($ucenici);
 foreach ($ucenici as $key => $uc) {
     foreach ($uc as $key => $value) {
         //prvi način za dobiti samo prezimena
-        if ($key == 'prezime') {
-            echo '<br>' . $value;
+        if($key=='prezime'){
+        echo '<br>'.$value;
         }
     }
 }
@@ -48,9 +52,9 @@ foreach ($ucenici as $key => $uc) {
 foreach ($ucenici as $key => $uc) {
     foreach ($uc as $key => $value) {
         //drugi način za dobiti samo prezimena
-        if ($key == 'ime') {
+        if($key=='ime'){
             continue;
         }
-        echo '<br>' . $value;
+        echo '<br>'.$value;
     }
 }

@@ -11,9 +11,28 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>  <table boreder="1">
-                <tr><td>banana</td><td>jabuka</td><td>kivi</td>
-
-                    </div>
-                    </body>
-                    </html>
+        <div>
+            <a href = "www.index.hr"> N
+            
+            daksčdlkla
+            </a>
+        </div> 
+        <ul>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <li>Prvi</li>
+    <li>Drugi</li>
+        <ol>Osijek</ol>
+    <li>Treći</li>
+        <ul>
+       <ol>Mladost</ol>
+        </ul>    
+     </ul>
+    
+    
+    
+    </body>
+</html>
