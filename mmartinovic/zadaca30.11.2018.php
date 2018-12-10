@@ -8,10 +8,11 @@
 echo "Zadatak 1."; //ZADATAK 1. FOREACH PETLJA
 echo "<br>";
 $imena  = array('Josip','Leonarda','Emilija','Perica','Lili');
-
+echo "<ol>";
 foreach ($imena as $ime) {
     echo "<li> $ime </li>";
 }
+echo "</ol>";
 
 
 echo "<hr>";
