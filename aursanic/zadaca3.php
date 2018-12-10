@@ -44,10 +44,33 @@ function napravi_tablicu($imena, $prezimena)
     }  
     echo "</table>";
 }
+function napravi_tablicu2($imena)
+{
+    echo "<table border=\"1\">";
+    echo "<tr>";
+    echo "<th>Ime</th>";
+    echo "<th>Prezime</th>";
+    echo "</tr>";
+    foreach ($imena as $im) {
+      echo "<tr>";
+        echo "<td>$im[0]</td>";
+        echo "<td>$im[1]</td>"; 
+        echo "</tr>";
+    }
+    echo "</table>";
+}
 
 $polje_imena = array("Femto", "Nikica", "Ferdinand");
 $polje_prezimena = array("Tarzan", "Torbica", "von Habsburg");
+$imena=array();
+for ($i=0;$i<count($polje_imena);$i++) {
+ // $imena=[['ime1','prezime1'],['ime2','prezime2'],['ime3','prezime3']];
+  $imena[]=array($polje_imena[$i],$polje_prezimena[$i]);
+}
+print_r($imena);
 napravi_tablicu($polje_imena, $polje_prezimena);
+$imena=[['ime1','prezime1'],['ime2','prezime2'],['ime3','prezime3']];
+napravi_tablicu2($imena);
 echo "<br>";
 
 echo "Treći zadatak:<br><hr>";
@@ -104,10 +127,11 @@ function zad4()
             echo "broj ";
         else
             echo "nista ";
-    }
+        echo ' <span style="font-weight:bold">'. gettype($var).'</span> ';
+           }
 }
 
-zad4(1, "str1", 2, 3, "str2", "1.23");
+zad4(1, "str1", 2, 3, "str2", 1.23);
 echo "<br><br>";
 
 echo "8.5 Zadaci za ponavljanje<br><hr>";
