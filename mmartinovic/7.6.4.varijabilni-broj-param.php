@@ -13,7 +13,7 @@ function sum() {
     //print_r(func_get_args())
     $rez=0;
     for($i = 0;$i < func_num_arg();$i++) {
-       $rez+(func_get_arg($i))
+       $rez+(func_get_arg($i));
     }
 }
 

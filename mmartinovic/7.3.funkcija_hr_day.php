@@ -42,31 +42,3 @@ echo sumiraj(4, 7);
 echo sumiraj(4.1, 7);
 
 
-function hr_day(string $dan=NULL): string {
-    switch ($dan) {
-        case 0:return 'nedjelja';
-            break;
-        case 1:return 'ponedjeljak';
-            break;
-        case 2:return 'utorak';
-            break;
-        case 3:return 'sri';
-            break;
-        case 4:return 'cet';
-            break;
-        case 5:return 'pet';
-            break;
-
-
-
-
-          
-
-        default:return 'subota';
-            break;
-}
-
-    }
-    echo hr_day();
-    echo "<br>današnji dan:<br>"
-    echo hr_day(date('w'));
