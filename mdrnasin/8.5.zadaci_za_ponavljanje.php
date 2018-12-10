@@ -25,3 +25,26 @@ if(isset($_POST["Pošalji"])){
     fwrite($handle, $_POST["text"]);
     fclose($handle);
 }
+
+echo 'Zadatak 2. - Program preko kojeg korisnik dohvaća sadržaj, uređuje ga i ponovno sprema: <br>';
+
+$filename="text.txt";
+
+echo '
+<form method="POST">
+Text: <textarea name="text">';
+
+ $file= file($filename);
+foreach ($file as $linija) {
+    echo $linija."\n";
+} 
+
+echo '
+<textarea type="submit" name="pošalji" value="Pošalji"/>
+<form/>';
+
+if(isset($_POST["pošalji"])){
+    $handle= fopen($filename, "a+");
+    fwrite($handle, $_POST["text"]);
+    fclose($handle);
+}
