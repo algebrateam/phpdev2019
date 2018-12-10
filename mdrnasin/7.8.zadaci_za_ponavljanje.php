@@ -4,19 +4,20 @@
  * 
  */
 function hr_mjesec($mjesec) {
+  var_dump($mjesec);
     switch ($mjesec) {
         case 0: return'Prosinac';
-        case 2: return'Sjecanj';
-        case 3: return'Veljaca';
-        case 4: return'Ozujak';
-        case 5: return'Travanj';
-        case 6: return'Svibanj';
-        case 7: return'Lipanj';
-        case 8: return'Srpanj';
-        case 9: return'Kolovoz';
-        case 10: return'Rujan';
-        case 11: return'Listopad';
-        case 12: return'Studeni';
+        case 1: return'Sjecanj';
+        case 2: return'Veljaca';
+        case 3: return'Ozujak';
+        case 4: return'Travanj';
+        case 5: return'Svibanj';
+        case 6: return'Lipanj';
+        case 7: return'Srpanj';
+        case 8: return'Kolovoz';
+        case 9: return'Rujan';
+        case 10: return'Listopad';
+        case 11: return'Studeni';
 
         default:
             break;
@@ -24,7 +25,8 @@ function hr_mjesec($mjesec) {
 }
 
 echo'Zadatak 1. - Ispis trenutnog mjeseca na hrvatskom (napisan rijecima): ';
-echo hr_mjesec(date('F'));
+// za test smo unijeli datum +70 dana
+echo hr_mjesec(date('n',time() + (70 * 24 * 60 * 60)));
 echo '<hr>';
 
 echo'Zadatak 2. - Ispis HTML tablice imena i prezimena ucenika: ';

@@ -1,5 +1,11 @@
 <?php
-
+$filename="text.txt";
+$file= file($filename);
+if(isset($_POST["spremi"])){
+    $handle= fopen($filename, "w+");
+    fwrite($handle, $_POST["text"]);
+    fclose($handle);
+}
 /**
  *
  */
@@ -17,9 +23,9 @@ echo 'Zadatak 2. - Obrazac koji zapisuje podatak u .txt file: ';
 
 echo '<form method="POST">'
  . 'Text: <input name="text"/><br>'
- . '<input type="submit" name="Pošalji" value="Pošalji"/><br>';
+ . '<input type="submit" name="Posalji" value="Pošalji"/><br>';
 
-if(isset($_POST["Pošalji"])){
+if(isset($_POST["Posalji"])){
     $filename='text.txt';
     $handle= fopen($filename, 'a+');
     fwrite($handle, $_POST["text"]);
@@ -28,24 +34,16 @@ if(isset($_POST["Pošalji"])){
 
 echo 'Zadatak 3. - Program preko kojeg korisnik dohvaća sadržaj, uređuje ga i ponovno sprema: <br>';
 
-$filename="text.txt";
 
 echo '
 <form method="POST">
 Text: <textarea name="text">';
-
- $file= file($filename);
 foreach ($file as $line_num => $linija) {
     echo $linija."\n";
 }
-
 echo'
 </textarea><br>
 <input type="submit" name="spremi" value="Spremi"/>
 </form>';
 
-if(isset($_POST["spremi"])){
-    $handle= fopen($filename, "a+");
-    fwrite($handle, $_POST["text"]);
-    fclose($handle);
-}
+

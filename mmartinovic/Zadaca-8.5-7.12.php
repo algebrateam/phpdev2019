@@ -49,10 +49,10 @@ foreach ($datoteka as $line_num => $line) {
 echo'
 </textarea>
 <br />
-<input type= "submit" name= "btn" value = "Spremi" />
+<input type= "submit" name= "btn2" value = "Spremi" />
 </form>';
 
-if (isset($_POST["btn"])) {
+if (isset($_POST["btn2"])) {
 
 
     $handl = fopen($filename, 'a+');

@@ -61,7 +61,6 @@ echo "<hr> Zadatak 2. <br>";//ZADATAK DRUGI - ISPIS UCENIKA U HTML TABLICU
  * @param array $ucenici polje ucenika
  * @return string html tablica
  */ 
-
 function ispis_ucenika($uc) {
     echo '<table border="1">';
     foreach ($uc as $value) {
