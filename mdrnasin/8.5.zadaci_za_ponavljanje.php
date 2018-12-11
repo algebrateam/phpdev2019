@@ -1,8 +1,9 @@
 <?php
-$filename="text.txt";
-$file= file($filename);
-if(isset($_POST["spremi"])){
-    $handle= fopen($filename, "w+");
+
+$filename = "text.txt";
+$file = file($filename);
+if (isset($_POST["spremi"])) {
+    $handle = fopen($filename, "w+");
     fwrite($handle, $_POST["text"]);
     fclose($handle);
 }
@@ -25,9 +26,9 @@ echo '<form method="POST">'
  . 'Text: <input name="text"/><br>'
  . '<input type="submit" name="Posalji" value="Pošalji"/><br>';
 
-if(isset($_POST["Posalji"])){
-    $filename='text.txt';
-    $handle= fopen($filename, 'a+');
+if (isset($_POST["Posalji"])) {
+    $filename = 'text.txt';
+    $handle = fopen($filename, 'a+');
     fwrite($handle, $_POST["text"]);
     fclose($handle);
 }
@@ -39,7 +40,7 @@ echo '
 <form method="POST">
 Text: <textarea name="text">';
 foreach ($file as $line_num => $linija) {
-    echo $linija."\n";
+    echo $linija . "\n";
 }
 echo'
 </textarea><br>
