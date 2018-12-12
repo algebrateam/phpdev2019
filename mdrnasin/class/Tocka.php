@@ -30,8 +30,7 @@ class Tocka implements ITocka{
         $this->postavi($x,$y);
     }
 
-    public function unisti(): bool
-    {
+    public function unisti(): bool{
 
     }
 
