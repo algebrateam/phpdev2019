@@ -62,6 +62,6 @@ class Tocka implements ITocka{
 
     public function move_relative(int $x, int $y)
     {
-        // TODO: Implement move_relative() method.
+
     }
 }
