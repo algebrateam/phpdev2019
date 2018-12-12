@@ -1,6 +1,6 @@
 <?php
 
-interface ITocha
+interface ITocka
 {
     public function postavi(int $x, int $y);
 
@@ -12,7 +12,7 @@ interface ITocha
 
     public function unisti(): bool;
 
-    public function kloniraj(): bool;
+    public function kloniraj(): Tocka;
 
     public function set_x(int $x);
 
