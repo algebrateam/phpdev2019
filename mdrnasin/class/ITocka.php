@@ -3,9 +3,9 @@
 interface ITocka {
     public function postavi(int $x, int $y);
 
-    public function get_koords(): string;
+    public function getkoords(): string;
 
-    public function moveaps(int $x, int $y);
+    public function move_apsolute(int $x, int $y);
 
     public function move_relative(int $x, int $y);
 
@@ -20,4 +20,8 @@ interface ITocka {
     public function set_y(int $y);
 
     public function get_y(): int;
+
+    public function move_x(int $x);
+
+    public function move_y(int $y);
 }
