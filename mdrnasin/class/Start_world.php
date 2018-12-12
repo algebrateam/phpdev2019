@@ -1,9 +1,9 @@
 <?php
 
-include_once "./Covjek.php";  // dok ne naucimo autoloading
+include_once "Covjek.php";  // dok ne naucimo autoloading
 
 
-$c1=new Covjek();  // nova instanca klase Covjek
+$c1 = new Covjek();  // nova instanca klase Covjek
 
 $c1->broj=5;  // postava public svojstva
 

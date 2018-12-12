@@ -3,7 +3,7 @@
 namespace World;
 
 /**
- * Description of Covijek
+ * Description of Covjek
  *
  * @author marko
  */
