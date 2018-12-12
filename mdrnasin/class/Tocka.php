@@ -9,14 +9,15 @@ class Tocka implements ITocka{
         $this->postavi($x,$y);
     }
 
-    /**Kreira novu točku
-     * @param int $x
-     * @param int $y
-     */
     public function postavi(int $x, int $y)
     {
         $this->x=$x;
         $this->y=$y;
+    }
+
+    public function __destruct()
+    {
+
     }
 
     public function get_koords(): string
@@ -26,7 +27,7 @@ class Tocka implements ITocka{
 
     public function moveaps(int $x, int $y)
     {
-        // TODO: Implement moveaps() method.
+        $this->postavi($x,$y);
     }
 
     public function unisti(): bool
@@ -34,14 +35,9 @@ class Tocka implements ITocka{
         // TODO: Implement unisti() method.
     }
 
-    public function kloniraj(): Tocka
-    {
-     //return
-    }
-
-    public function set_x(int $x)
-    {
-        // TODO: Implement set_x() method.
+    public function kloniraj(): Tocka{
+        $temp=new Tocka($this->x, $this->y);
+        return $temp;
     }
 
     public function get_x(): int
@@ -49,9 +45,9 @@ class Tocka implements ITocka{
         return $this->x;
     }
 
-    public function set_y(int $y)
+    public function set_x(int $x)
     {
-        // TODO: Implement set_y() method.
+        $this->x=$x;
     }
 
     public function get_y(): int
@@ -59,4 +55,13 @@ class Tocka implements ITocka{
         return $this->y;
     }
 
+    public function set_y(int $y)
+    {
+        $this->y=$y;
+    }
+
+    public function move_relative(int $x, int $y)
+    {
+        // TODO: Implement move_relative() method.
+    }
 }
