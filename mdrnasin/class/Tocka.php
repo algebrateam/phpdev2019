@@ -22,7 +22,7 @@ class Tocka implements ITocka{
 
     public function get_koords(): string
     {
-        return 'Koordinata (' .$this->x.','.$this->y.')'
+        return 'Koordinata (' .$this->x.','.$this->y.')';
     }
 
     public function moveaps(int $x, int $y)
@@ -32,7 +32,7 @@ class Tocka implements ITocka{
 
     public function unisti(): bool
     {
-        // TODO: Implement unisti() method.
+
     }
 
     public function kloniraj(): Tocka{
