@@ -1,7 +1,6 @@
 <?php
 
-interface ITocka
-{
+interface ITocka {
     public function postavi(int $x, int $y);
 
     public function get_koords(): string;
