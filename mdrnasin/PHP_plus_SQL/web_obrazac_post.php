@@ -7,7 +7,7 @@
   </head>
   <body>
     <div>
-      <form action="#" method="GET">
+      <form action="#" method="POST">
         Ime: <input type="text" name="ime" value="" size="22" /><br>
         Prezime: <input type="text" name="prezime" value="" size="22" /><br>
         spol: <input type="radio" name="spol" value="M" checked="checked" />musko
@@ -37,12 +37,12 @@
   </body>
 </html>
 <?php
-if (isset($_GET['submit_btn'])) {
-  print_r($_GET);
+if (isset($_POST['submit_btn'])) {
+  var_dump($_POST);
   echo '<br>';
-  echo 'varijabla ime je:' . $_GET['ime'];
+  echo 'varijabla ime je:' . $_POST['ime'];
 
-  foreach ($_GET['interesi'] as $key => $value) {
+  foreach ($_POST['interesi'] as $key => $value) {
     switch ($value) {
       case 1:$v = 'sportski';
         break;
