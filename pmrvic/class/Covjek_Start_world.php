@@ -38,6 +38,13 @@ $c1->komuniciraj($c2);
 echo "<br>c2 speed: ".$c2->trenutna_brzina;
 echo "<br>c1 speed: ".$c1->trenutna_brzina;
 
+var_dump($c2);
+$c2json= json_encode($c2);
+var_dump($c2json);
+$c2json_decoded= json_decode($c2json);
+var_dump($c2json_decoded);
+echo 'Ime je '.$c2json_decoded->ime;
+
 
 
 
