@@ -17,14 +17,14 @@
         </div>
 
         <div style="width:auto">
-            <form method="POST" action="#">
+          <form method="POST" action="#" enctype="multipart/form-data">
                 <?php
                 if (isset($_GET['broj_datoteka_btn'])) {
                     for ($i = 1; $i <= $_GET['broj_datoteka']; $i++) {
                         ?>
                         <fieldset>       
 
-                            <input type="file" name="datoteka" >
+                            <input type="file" name="datoteka[]" >
                             
                         </fieldset>
                     <?php } ?>
@@ -38,5 +38,24 @@
 </html>
 <?php
 if (isset($_POST['upload'])) {
-    echo 'Vaše datoteke su uploadane';
+
+    echo "<hr>";   
+   // echo $_FILES['datoteka']['name'][0];  // ocekujem 25CF.tmp
+    $upload_dir=__DIR__;
+    foreach ($_FILES['datoteka']['tmp_name']as $key => $imedatoteke) {
+      $tmp_ime=explode("\\", $imedatoteke);
+      
+      $destination=$upload_dir.'\\'.time().end($tmp_ime);
+      var_dump($destination);
+       if(move_uploaded_file($imedatoteke, $destination)){
+             echo 'Vaše datoteke su uploadane';
+       }
+       else{
+         echo 'problem prilikom upoada';
+       }
+    }
+    
+    echo "<br>";
+    print_r($_FILES);
+    var_dump($_POST);
 }
