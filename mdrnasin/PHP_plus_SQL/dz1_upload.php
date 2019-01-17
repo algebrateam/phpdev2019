@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>phpdev2019/primjer_upload.php at master · marko2107/phpdev2019 · GitHub</title>
+  <title>phpdev2019/dz1_upload.php at master · marko2107/phpdev2019 · GitHub</title>
     <meta name="description" content="PHP Osijek 11/2018. Contribute to marko2107/phpdev2019 development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -41,7 +41,7 @@
   
   <meta name="pjax-timeout" content="1000">
   
-  <meta name="request-id" content="DA93:196D:213114A:324C338:5C40A33E" data-pjax-transient>
+  <meta name="request-id" content="DA93:196D:213047D:324921F:5C40A320" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="DA93:196D:213114A:324C338:5C40A33E" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="DA93:196D:213047D:324921F:5C40A320" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -70,7 +70,7 @@
     <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="NzAzYzlhYWM4ZDU0NjQwODI1OWY0OTZhYjg3YmY3Nzk4ZTM0YmNjZTJkNmZhMTVkNTliNWIwMGRkYjlhYzMyNHx7InJlbW90ZV9hZGRyZXNzIjoiMTQxLjEzNi4yNDUuMjQwIiwicmVxdWVzdF9pZCI6IkRBOTM6MTk2RDoyMTMxMTRBOjMyNEMzMzg6NUM0MEEzM0UiLCJ0aW1lc3RhbXAiOjE1NDc3Mzk5NzEsImhvc3QiOiJnaXRodWIuY29tIn0=">
+    <meta name="js-proxy-site-detection-payload" content="ZTFkNDhkN2Q1Mzc1OGVmN2YwYzA3OWFjZjNmOWJjOWYxMjU4N2VjZWQwNzgwZWZjMzI4YjFlOTJlMDI0ZGE2ZXx7InJlbW90ZV9hZGRyZXNzIjoiMTQxLjEzNi4yNDUuMjQwIiwicmVxdWVzdF9pZCI6IkRBOTM6MTk2RDoyMTMwNDdEOjMyNDkyMUY6NUM0MEEzMjAiLCJ0aW1lc3RhbXAiOjE1NDc3Mzk5NjEsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR">
 
@@ -86,7 +86,7 @@
   <meta name="octolytics-dimension-user_id" content="43698602" /><meta name="octolytics-dimension-user_login" content="marko2107" /><meta name="octolytics-dimension-repository_id" content="157265012" /><meta name="octolytics-dimension-repository_nwo" content="marko2107/phpdev2019" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="true" /><meta name="octolytics-dimension-repository_parent_id" content="157261516" /><meta name="octolytics-dimension-repository_parent_nwo" content="algebrateam/phpdev2019" /><meta name="octolytics-dimension-repository_network_root_id" content="157261516" /><meta name="octolytics-dimension-repository_network_root_nwo" content="algebrateam/phpdev2019" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/marko2107/phpdev2019/blob/master/mdrnasin/PHP_plus_SQL/primjer_upload.php" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/marko2107/phpdev2019/blob/master/mdrnasin/PHP_plus_SQL/dz1_upload.php" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -255,7 +255,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=D66N/bU/vgyflj2byLm5k1zooiHrNrXW2Fk9mbc7eDoeLYL2Stkhijxcxh4rhSH/3jIAbjX+qiS4LW00u0VVXw=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=llT7hab+voJXMVwx918aa9EFKdgKgTS2aHV5SQF3FgSH1/SOWRghBPT7p7QUY4IHU9+Ll9RJK0QIASnkDQk7YQ=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -380,7 +380,7 @@
 
           </div>
 
-        <a class="HeaderMenu-link no-underline mr-3" href="/login?return_to=%2Fmarko2107%2Fphpdev2019%2Fblob%2Fmaster%2Fmdrnasin%2FPHP_plus_SQL%2Fprimjer_upload.php" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign&nbsp;in</a>
+        <a class="HeaderMenu-link no-underline mr-3" href="/login?return_to=%2Fmarko2107%2Fphpdev2019%2Fblob%2Fmaster%2Fmdrnasin%2FPHP_plus_SQL%2Fdz1_upload.php" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign&nbsp;in</a>
           <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign&nbsp;up</a>
       </div>
     </div>
@@ -519,14 +519,14 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/marko2107/phpdev2019/blob/15833fdddbc22e7b0d990f6269a4842876aac2b8/mdrnasin/PHP_plus_SQL/primjer_upload.php">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/marko2107/phpdev2019/blob/15833fdddbc22e7b0d990f6269a4842876aac2b8/mdrnasin/PHP_plus_SQL/dz1_upload.php">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:f9c9e858881cb71ab64ddcec13346cc2 -->
+    <!-- blob contrib key: blob_contributors:v21:d03f876fe01cb461851c84fc9ad03f62 -->
 
         <div class="signup-prompt-bg rounded-1">
       <div class="signup-prompt p-4 text-center mb-4 rounded-1">
         <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GNop/yy/6WEUaeA9iEmJZ+ZpXXvZ0G5xIHDHBjEYcLeC3E7JUwCxY7PSwMZWvLi7IMyhbDQGSNqwZ6hqSIw0ow==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ks67y1WSWdWfvbSHcbozkxnIQHFD0aYMP5CUJsdqX72wyNz9Ki0B1zgGlHyvTwJP3228Zq4HgKevh/tKvv4bqQ==" />
             <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
               Dismiss
             </button>
@@ -541,7 +541,7 @@
     <div class="file-navigation">
       
 <div class="select-menu branch-select-menu js-menu-container js-select-menu float-left js-load-contents"
-  data-contents-url="/marko2107/phpdev2019/ref-list/master/mdrnasin/PHP_plus_SQL/primjer_upload.php?source_action=show&amp;source_controller=blob">
+  data-contents-url="/marko2107/phpdev2019/ref-list/master/mdrnasin/PHP_plus_SQL/dz1_upload.php?source_action=show&amp;source_controller=blob">
   <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
     
     type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
@@ -571,12 +571,12 @@
         </clipboard-copy>
       </div>
       <div id="blob-path" class="breadcrumb">
-        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/marko2107/phpdev2019"><span>phpdev2019</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/marko2107/phpdev2019/tree/master/mdrnasin"><span>mdrnasin</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/marko2107/phpdev2019/tree/master/mdrnasin/PHP_plus_SQL"><span>PHP_plus_SQL</span></a></span><span class="separator">/</span><strong class="final-path">primjer_upload.php</strong>
+        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/marko2107/phpdev2019"><span>phpdev2019</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/marko2107/phpdev2019/tree/master/mdrnasin"><span>mdrnasin</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/marko2107/phpdev2019/tree/master/mdrnasin/PHP_plus_SQL"><span>PHP_plus_SQL</span></a></span><span class="separator">/</span><strong class="final-path">dz1_upload.php</strong>
       </div>
     </div>
 
 
-    <include-fragment src="/marko2107/phpdev2019/contributors/master/mdrnasin/PHP_plus_SQL/primjer_upload.php" class="commit-tease commit-loader">
+    <include-fragment src="/marko2107/phpdev2019/contributors/master/mdrnasin/PHP_plus_SQL/dz1_upload.php" class="commit-tease commit-loader">
       <div>
         Fetching contributors&hellip;
       </div>
@@ -597,9 +597,9 @@
 
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/marko2107/phpdev2019/raw/master/mdrnasin/PHP_plus_SQL/primjer_upload.php">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/marko2107/phpdev2019/blame/master/mdrnasin/PHP_plus_SQL/primjer_upload.php">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/marko2107/phpdev2019/commits/master/mdrnasin/PHP_plus_SQL/primjer_upload.php">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/marko2107/phpdev2019/raw/master/mdrnasin/PHP_plus_SQL/dz1_upload.php">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/marko2107/phpdev2019/blame/master/mdrnasin/PHP_plus_SQL/dz1_upload.php">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/marko2107/phpdev2019/commits/master/mdrnasin/PHP_plus_SQL/dz1_upload.php">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -620,9 +620,9 @@
   </div>
 
   <div class="file-info">
-      52 lines (43 sloc)
+      42 lines (34 sloc)
       <span class="file-info-divider"></span>
-    1.32 KB
+    1.2 KB
   </div>
 </div>
 
@@ -641,199 +641,169 @@
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">head</span>&gt;</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">head</span>&gt;</td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">title</span>&gt;TODO supply a title&lt;/<span class="pl-ent">title</span>&gt;</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">        &lt;<span class="pl-ent">title</span>&gt;TODO supply a title&lt;/<span class="pl-ent">title</span>&gt;</td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">meta</span> <span class="pl-e">charset</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>UTF-8<span class="pl-pds">&quot;</span></span>&gt;</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">        &lt;<span class="pl-ent">meta</span> <span class="pl-e">charset</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>UTF-8<span class="pl-pds">&quot;</span></span>&gt;</td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">meta</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>viewport<span class="pl-pds">&quot;</span></span> <span class="pl-e">content</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>width=device-width, initial-scale=1.0<span class="pl-pds">&quot;</span></span>&gt;</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">        &lt;<span class="pl-ent">meta</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>viewport<span class="pl-pds">&quot;</span></span> <span class="pl-e">content</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>width=device-width, initial-scale=1.0<span class="pl-pds">&quot;</span></span>&gt;</td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">head</span>&gt;</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">body</span>&gt;</td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">    &lt;/<span class="pl-ent">head</span>&gt;</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">div</span>&gt;</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">body</span>&gt;</td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">form</span> <span class="pl-e">method</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>POST<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>upload<span class="pl-pds">&quot;</span></span> <span class="pl-e">action</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#<span class="pl-pds">&quot;</span></span> <span class="pl-e">enctype</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>multipart/form-data<span class="pl-pds">&quot;</span></span>&gt;</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">        &lt;<span class="pl-ent">div</span> <span class="pl-e">style</span>=<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-s1"><span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">auto</span></span><span class="pl-pds">&quot;</span></span>&gt;</td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">        &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>file<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>datoteka<span class="pl-pds">&quot;</span></span> <span class="pl-e">accept</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>image/png, image/jpeg<span class="pl-pds">&quot;</span></span>&gt;</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">            &lt;<span class="pl-ent">form</span> <span class="pl-e">method</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>GET<span class="pl-pds">&quot;</span></span> <span class="pl-e">action</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#<span class="pl-pds">&quot;</span></span>&gt;</td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">        &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>submit<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>uploadaj<span class="pl-pds">&quot;</span></span>&gt;</td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">                Broj datoteka za upload: &lt;<span class="pl-ent">input</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>broj_datoteka<span class="pl-pds">&quot;</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>number<span class="pl-pds">&quot;</span></span> <span class="pl-e">required</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>true<span class="pl-pds">&quot;</span></span> <span class="pl-e">max</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>5<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">br</span>&gt;</td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">        </td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">                &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>submit<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>broj_datoteka_btn<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>submit<span class="pl-pds">&quot;</span></span>&gt;</td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">      &lt;/<span class="pl-ent">form</span>&gt;</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">                 </td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">      </td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">            &lt;/<span class="pl-ent">form</span>&gt;</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">      </td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">    &lt;/<span class="pl-ent">div</span>&gt;</td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">        &lt;/<span class="pl-ent">div</span>&gt;</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">body</span>&gt;</td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">html</span>&gt;</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">        &lt;<span class="pl-ent">div</span> <span class="pl-e">style</span>=<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-s1"><span class="pl-c1"><span class="pl-c1">width</span></span>:<span class="pl-c1">auto</span></span><span class="pl-pds">&quot;</span></span>&gt;</td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">            &lt;<span class="pl-ent">form</span> <span class="pl-e">method</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>POST<span class="pl-pds">&quot;</span></span> <span class="pl-e">action</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#<span class="pl-pds">&quot;</span></span>&gt;</td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">                <span class="pl-pse">&lt;?php</span><span class="pl-s1"></span></td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-k">if</span>(<span class="pl-c1">isset</span>(<span class="pl-smi">$_POST</span>[<span class="pl-s"><span class="pl-pds">&#39;</span>uploadaj<span class="pl-pds">&#39;</span></span>])){</span></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">                <span class="pl-k">if</span> (<span class="pl-c1">isset</span>(<span class="pl-smi">$_GET</span>[<span class="pl-s"><span class="pl-pds">&#39;</span>broj_datoteka_btn<span class="pl-pds">&#39;</span></span>])) {</span></td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&#39;</span>&lt;br&gt;Vaša datoteka je uploadana:&lt;br&gt;<span class="pl-pds">&#39;</span></span>;</span></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">                    <span class="pl-k">for</span> (<span class="pl-smi">$i</span> <span class="pl-k">=</span> <span class="pl-c1">1</span>; <span class="pl-smi">$i</span> <span class="pl-k">&lt;=</span> <span class="pl-smi">$_GET</span>[<span class="pl-s"><span class="pl-pds">&#39;</span>broj_datoteka<span class="pl-pds">&#39;</span></span>]; <span class="pl-smi">$i</span><span class="pl-k">++</span>) {</span></td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  </span></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">                        </span><span class="pl-pse"><span class="pl-s1">?</span>&gt;</span></td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-smi">$upload_dir</span><span class="pl-k">=</span><span class="pl-c1">__DIR__</span><span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">&#39;</span>\upload<span class="pl-pds">&#39;</span></span>;</span></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">                        &lt;<span class="pl-ent">fieldset</span>&gt;       </td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-smi">$upload_file</span><span class="pl-k">=</span> <span class="pl-c1">basename</span>(<span class="pl-smi">$_FILES</span>[<span class="pl-s"><span class="pl-pds">&#39;</span>datoteka<span class="pl-pds">&#39;</span></span>][<span class="pl-s"><span class="pl-pds">&#39;</span>name<span class="pl-pds">&#39;</span></span>]);</span></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-smi">$varexp</span><span class="pl-k">=</span> <span class="pl-c1">explode</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>.<span class="pl-pds">&#39;</span></span>, <span class="pl-smi">$upload_file</span>);</span></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">                            &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>file<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>datoteka<span class="pl-pds">&quot;</span></span> &gt;</td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1">print_r</span>(<span class="pl-smi">$varexp</span>);</span></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">                            </td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>&lt;br&gt;ekstenzija je:<span class="pl-pds">&quot;</span></span><span class="pl-k">.</span><span class="pl-c1">end</span>(<span class="pl-smi">$varexp</span>);</span></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">                        &lt;/<span class="pl-ent">fieldset</span>&gt;</td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1">array_pop</span>(<span class="pl-smi">$varexp</span>);</span></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">                    <span class="pl-pse">&lt;?php</span><span class="pl-s1"> } </span><span class="pl-pse"><span class="pl-s1">?</span>&gt;</span></td>
       </tr>
       <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>&lt;br&gt;novi array&lt;br&gt;<span class="pl-pds">&quot;</span></span>;</span></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">                    &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>submit<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>upload<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>upload<span class="pl-pds">&quot;</span></span>&gt;</td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-c1">print_r</span>(<span class="pl-smi">$varexp</span>);</span></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">                <span class="pl-pse">&lt;?php</span><span class="pl-s1"> } </span><span class="pl-pse"><span class="pl-s1">?</span>&gt;</span></td>
       </tr>
       <tr>
         <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>&lt;br&gt;Ime filea je&lt;br&gt;<span class="pl-pds">&quot;</span></span><span class="pl-k">.</span> <span class="pl-c1">implode</span>(<span class="pl-s"><span class="pl-pds">&#39;</span> <span class="pl-pds">&#39;</span></span>,<span class="pl-smi">$varexp</span>);</span></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>&lt;hr&gt;<span class="pl-pds">&quot;</span></span>;</span></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">            &lt;/<span class="pl-ent">form</span>&gt;</td>
       </tr>
       <tr>
         <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  </span></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1">echo</span> <span class="pl-smi">$upload_dir</span><span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">&#39;</span>&lt;br&gt;<span class="pl-pds">&#39;</span></span>;</span></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">        &lt;/<span class="pl-ent">div</span>&gt;</td>
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1">echo</span> <span class="pl-smi">$upload_file</span><span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">&#39;</span>&lt;br&gt;<span class="pl-pds">&#39;</span></span>;</span></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">    &lt;/<span class="pl-ent">body</span>&gt;</td>
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  </span></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">html</span>&gt;</td>
       </tr>
       <tr>
         <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-k">if</span>(<span class="pl-c1">move_uploaded_file</span>(</span></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span></td>
       </tr>
       <tr>
         <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    <span class="pl-smi">$_FILES</span>[<span class="pl-s"><span class="pl-pds">&#39;</span>datoteka<span class="pl-pds">&#39;</span></span>][<span class="pl-s"><span class="pl-pds">&#39;</span>tmp_name<span class="pl-pds">&#39;</span></span>],</span></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-k">if</span> (<span class="pl-c1">isset</span>(<span class="pl-smi">$_POST</span>[<span class="pl-s"><span class="pl-pds">&#39;</span>upload<span class="pl-pds">&#39;</span></span>])) {</span></td>
       </tr>
       <tr>
         <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    <span class="pl-smi">$upload_dir</span><span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">&#39;</span>/<span class="pl-pds">&#39;</span></span><span class="pl-k">.</span><span class="pl-smi">$upload_file</span>)){</span></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Vaše datoteke su uploadane<span class="pl-pds">&#39;</span></span>;</span></td>
       </tr>
       <tr>
         <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&#39;</span>file je uploadan: <span class="pl-pds">&#39;</span></span>;</span></td>
-      </tr>
-      <tr>
-        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&#39;</span>&lt;a href=&quot;upload/<span class="pl-pds">&#39;</span></span><span class="pl-k">.</span><span class="pl-smi">$upload_file</span><span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">&#39;</span>&quot;&gt;file&lt;/a&gt;<span class="pl-pds">&#39;</span></span>;</span></td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>var_dump(mime_content_type ( $upload_dir.&#39;/&#39;.$upload_file));</span></span></td>
-      </tr>
-      <tr>
-        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    <span class="pl-k">if</span>(<span class="pl-c1">mime_content_type</span> ( <span class="pl-smi">$upload_dir</span><span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">&#39;</span>/<span class="pl-pds">&#39;</span></span><span class="pl-k">.</span><span class="pl-smi">$upload_file</span> )<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">&#39;</span>image/jpeg<span class="pl-pds">&#39;</span></span>){</span></td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&#39;</span>&lt;img src=&quot;upload/<span class="pl-pds">&#39;</span></span><span class="pl-k">.</span><span class="pl-smi">$upload_file</span><span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">&#39;</span>&quot;&gt;<span class="pl-pds">&#39;</span></span>;</span></td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      </span></td>
-      </tr>
-      <tr>
-        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    }</span></td>
-      </tr>
-      <tr>
-        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  }</span></td>
-      </tr>
-      <tr>
-        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1">var_dump</span>(<span class="pl-smi">$_FILES</span>);</span></td>
-      </tr>
-      <tr>
-        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
       </tr>
 </table>
 
@@ -845,7 +815,7 @@
       <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/marko2107/phpdev2019/blame/15833fdddbc22e7b0d990f6269a4842876aac2b8/mdrnasin/PHP_plus_SQL/primjer_upload.php">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/marko2107/phpdev2019/blame/15833fdddbc22e7b0d990f6269a4842876aac2b8/mdrnasin/PHP_plus_SQL/dz1_upload.php">View git blame</a></li>
       </ul>
     </details-menu>
   </details>
@@ -880,7 +850,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2019 <span title="0.20590s from unicorn-6fcfc98d-j4qx7">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2019 <span title="0.24146s from unicorn-5cc499c796-rqrth">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
