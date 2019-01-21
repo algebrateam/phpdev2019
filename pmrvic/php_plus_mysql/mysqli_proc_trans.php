@@ -46,6 +46,7 @@ if(!$result){
 }
 
 if($error_num<=0){
+  echo "zadnji insertani ID je.".mysqli_insert_id($link);
   commit($link);
 }
  else {
