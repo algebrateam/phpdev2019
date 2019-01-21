@@ -8,7 +8,8 @@
  * @author pmrvic
  */
 class Covjek {
-  public $ime='Marko';
+  public $imeStud='Marko';
+  public $ime='Marko';  
   public $broj;
   private $spol='M';
   public $trenutna_brzina=0;
