@@ -33,7 +33,7 @@ class Covjek {
   public function hodaj(){}
   public function trci(){}
   public function stani(){}
-  public function komuniciraj(Covjek $cov){
+  public function komuniciraj(Covjek &$cov){
     $cov->trenutna_brzina+=2;
     if($this->spol===$cov->spol){
       $this->trenutna_brzina=100;
