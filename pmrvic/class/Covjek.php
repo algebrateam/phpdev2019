@@ -15,7 +15,8 @@ class Covjek {
   public $trenutna_brzina=0;
   
   public function ime(){
-    echo 'Moje ime je '. $this->ime.'<br>';
+    $ime='perica';
+    echo 'Moje ime je '. $this->ime.' i ja sam '.$this->get_spol() .'<br>';
   }
   
   public function get_spol(){

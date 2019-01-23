@@ -4,7 +4,7 @@ $user='root';
 $password=''; 
 $database='fakultet'; 
 $port=3306;
-$mysql= new mysqli($host, $user, $password, $database, $port);
+$mysqli= new mysqli($host, $user, $password, $database, $port);
 if(mysqli_connect_errno()){
   echo "Ne mogu se spojiti na bazu podataka, je li server podignut?<br>";
   echo mysqli_connect_error();
