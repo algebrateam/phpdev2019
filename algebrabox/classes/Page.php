@@ -44,7 +44,7 @@
 			return $this->_authenticator->UserIsAuthentic();
 		}
 		
-		private function GetHead($title)
+		public function GetHead($title)
 		{
 			$output = '';
 			$output .= '<head>';
@@ -58,7 +58,7 @@
 			return $output;
 		}
 		
-		private function GetNavigation()
+		public function GetNavigation()
 		{
 			$output = "";
 			
