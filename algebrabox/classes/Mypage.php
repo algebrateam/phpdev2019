@@ -6,6 +6,18 @@
     protected function GetContent() {
     
   }
+  		public function FlyMeTOMyPage()
+		{
+			header("Location: moje.php");
+		}
+  		public function GetUploadPath()
+		{
+			$user = $this->_authenticator->GetCurrentUserName();
+      $id = $this->_authenticator->GetCurrentUserId();
+			$base = getcwd();
+			//return "$base\\files\\$user\\";
+      return "$base\\files\\$id\\";
+		}
   		public function Display($title)
 		{
 			if($this->PageRequiresAuthenticUser() && !$this->UserIsAuthenticated())

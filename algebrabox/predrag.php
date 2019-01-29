@@ -5,6 +5,7 @@
 	{
 		protected function GetContent()
 		{
+      var_dump($_SESSION);
 			$output = '';
 			
 			$output .= '<h1>Moje stranice</h1>';
